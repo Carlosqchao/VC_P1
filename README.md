@@ -18,7 +18,7 @@ Uso de estructuras de control para patrones repetitivos.
 ## TAREA 2: Imagen Estilo Mondrian
 
 Descripción:
-Se construyó una imagen inspirada en el estilo del artista Piet Mondrian, utilizando formas rectangulares rellenas de colores primarios (rojo, azul, amarillo) y blanco. Se utilizaron las funciones de dibujo de OpenCV (cv2.rectangle, cv2.line, cv2.circle, etc.).
+Se construyó una imagen inspirada en el estilo del artista Piet Mondrian, utilizando formas rectangulares rellenas de colores primarios (rojo, azul, amarillo) y blanco pero diferenciandolo incliyendo una cruz dos "ojos" con colores difirientes del fondo . Se utilizaron las funciones de dibujo de OpenCV (cv2.rectangle, cv2.line, cv2.circle, etc.).
 
 Objetivos de aprendizaje:
 
@@ -44,7 +44,7 @@ Detección de extremos (mínimos y máximos) con cv2.minMaxLoc.
 ## TAREA 4: Propuesta Propia de Pop Art (Inspiración: Andy Warhol)
 
 Descripción:
-Se desarrolló una propuesta personalizada de estilo Pop Art, basada en el estilo visual de Andy Warhol. A partir de una imagen capturada con la webcam, se generó una composición 2x2 con variaciones cromáticas entre las versiones.
+Se desarrolló una propuesta personalizada de estilo Pop Art, basada en el estilo visual de Andy Warhol. A partir de una imagen capturada con la webcam, se generó una composición 3x3 con variaciones cromáticas entre las versiones. La primera linea son 3 imagenes con las salidas RGB correspondientes, los mismo con las otras dos lineas pero la segnda es restando los valores RGB a 255, y la ultima es sumandolos a 0
 
 Objetivos de aprendizaje:
 
